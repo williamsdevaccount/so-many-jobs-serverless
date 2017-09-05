@@ -1,0 +1,26 @@
+{
+  "name": "so-many-jobs-serverless",
+  "version": "1.0.0",
+  "description": "this is the so many jobz backend service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "docs" : "jsdoc lib -r -d docs"
+  },
+  "author": "william stowers",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.89.0",
+    "bluebird": "^3.5.0",
+    "dynamodb-doc": "^1.0.0",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "supertest": "^3.0.0",
+    "uuid": "^3.1.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.15.1"
+  }
+}

@@ -1,0 +1,22 @@
+default_env: &default_env
+  IS_LOCAL: false
+  LOG_LEVEL : 'info'
+
+local:
+  <<: *default_env
+  IS_LOCAL: true
+  ACCESS_KEY: 'AKIAI6ZQ4DDPWRTBQYIA'
+  ACCESS_SECRET : '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'
+  AWS_REGION : 'us-east-1'
+  LOG_LEVEL : 'debug'
+  SLS_DEBUG: '*'
+
+
+dev:
+  <<: *default_env
+
+stage:
+   <<: *default_env
+
+prod:
+   <<: *default_env

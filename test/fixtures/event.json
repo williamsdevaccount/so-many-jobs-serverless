@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "cache-control": "no-cache",
+    "User-Agent": "PostmanRuntime/6.3.2",
+    "Accept": "*/*",
+    "Host": "localhost:3000",
+    "accept-encoding": "gzip, deflate",
+    "Connection": "keep-alive"
+  },
+  "path": "/jobs",
+  "pathParameters": {
+    "id" : 1
+  },
+  "requestContext": {
+    "accountId": "offlineContext_accountId",
+    "resourceId": "offlineContext_resourceId",
+    "apiId": "offlineContext_apiId",
+    "stage": "dev",
+    "requestId": "offlineContext_requestId_",
+    "identity": {
+      "cognitoIdentityPoolId": "offlineContext_cognitoIdentityPoolId",
+      "accountId": "offlineContext_accountId",
+      "cognitoIdentityId": "offlineContext_cognitoIdentityId",
+      "caller": "offlineContext_caller",
+      "apiKey": "offlineContext_apiKey",
+      "sourceIp": "127.0.0.1",
+      "cognitoAuthenticationType": "offlineContext_cognitoAuthenticationType",
+      "cognitoAuthenticationProvider": "offlineContext_cognitoAuthenticationProvider",
+      "userArn": "offlineContext_userArn",
+      "userAgent": "PostmanRuntime/6.3.2",
+      "user": "offlineContext_user"
+    },
+    "authorizer": {
+      "principalId": "offlineContext_authorizer_principalId"
+    },
+    "resourcePath": "/jobs",
+    "httpMethod": "GET"
+  },
+  "resource": "/jobs",
+  "httpMethod": "GET",
+  "queryStringParameters": {
+    "type": "new"
+  },
+  "stageVariables": null,
+  "body": {
+    "id" : 1
+  },
+  "isOffline": true
+}
