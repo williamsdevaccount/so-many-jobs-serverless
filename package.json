@@ -18,9 +18,9 @@
     "moment": "^2.18.1",
     "supertest": "^3.0.0",
     "uuid": "^3.1.0",
-    "winston": "^2.3.1"
+    "winston": "^3.2.1"
   },
   "devDependencies": {
-    "serverless-offline": "^3.15.1"
+    "serverless-offline": "^4.5.0"
   }
 }
